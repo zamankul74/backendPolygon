@@ -17,9 +17,9 @@ psycopg2-binary
 postgresql postgresql-contrib
 
 Server work on default port
-# not used session auth for client requests
+Note: not used session auth for client requests
 
-# DB migration
+DB migration
 ### `python manage.py makemigrations todo`
 ### `python manage.py migrate`
 
