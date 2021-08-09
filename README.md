@@ -1,29 +1,30 @@
-# Project used
+Project Polygon Backend
 
-# PostgreSQL
-# db name: poligon ( not polygon :) )
-# with user same as in settings.py
-# to create poligon db
-sudo -u postgres psql
-# Django 3.6.x
-# instaled extantions:
+PostgreSQL
+db name: poligon ( not polygon :) )
+with user same as in settings.py
 
-# install django-postgres
-# install rest_framework
-# install djangorestframework django-cors-headers
-# install build-dep python-psycopg
-# install psycopg2-binary
-# install postgresql postgresql-contrib
+To create poligon db
+### `sudo -u postgres psql`
+Django 3.6.x
+instaled extantions:
 
-# server work on default port
+django-postgres
+rest_framework
+djangorestframework django-cors-headers
+build-dep python-psycopg
+psycopg2-binary
+postgresql postgresql-contrib
+
+Server work on default port
 # not used session auth for client requests
 
 # DB migration
-python manage.py makemigrations todo
-python manage.py migrate
+### `python manage.py makemigrations todo`
+### `python manage.py migrate`
 
-# python manage.py createsuperuser --username=slava --email=zamankul_74@yahoo.com
+### `python manage.py createsuperuser --username=slava --email=<any email>`
 
-# RUN server
+RUN server
 
-python manage.py runserver
+### `python manage.py runserver`
