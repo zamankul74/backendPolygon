@@ -7,7 +7,7 @@ with user same as in settings.py
 To create poligon db
 ### `sudo -u postgres psql`
 Django 3.6.x
-instaled extantions:
+instaled extentions:
 
 django-postgres
 rest_framework
